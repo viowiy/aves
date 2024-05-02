@@ -11,7 +11,7 @@ var facingMode = "user"; //Para que funcione con el celular (user/environment)
 
 (async () => {
     console.log("Cargando modelo...");
-    modelo = await tf.loadLayersModel("model02/model.json");
+    modelo = await tf.loadLayersModel("model01/model.json");
     console.log("Modelo cargado...");
 })();
 
@@ -94,8 +94,8 @@ function predecir() {
             }
         }
 
-        arr = [arr]; //Meter el arreglo en otro arreglo por que si no tio tensorflow se enoja >:(
-        //Nah basicamente Debe estar en un arreglo nuevo en el indice 0, por ser un tensor4d en forma 1, 150, 150, 1
+        arr = [arr]; //Meter el arreglo en otro arreglo...
+        //Debe estar en un arreglo nuevo en el indice 0, por ser un tensor4d en forma 1, 150, 150, 1
         var tensor4 = tf.tensor4d(arr);
         var resultados = modelo.predict(tensor4).dataSync();
         var mayorIndice = resultados.indexOf(Math.max.apply(null, resultados));
@@ -651,7 +651,7 @@ function procesarCamara() {
  * @param {int} width
  * @param {int} height
  * @param {boolean} resize_canvas if true, canvas will be resized. Optional.
- * Cambiado por RT, resize canvas ahora es donde se pone el chiqitillllllo
+ * Cambiado por RT, resize canvas...
  */
 function resample_single(canvas, width, height, resize_canvas) {
     var width_source = canvas.width;
