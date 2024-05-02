@@ -1,16 +1,19 @@
-# Clasificación de perros y gatos
+# Clasificación de Aves. 525 especies.
+Este código constituye un ejercicio práctico de la asignatura Redes Neuronales profundas.
 
-Este código fuente sirve como apoyo para el video de exportación de modelos de Tensorflow a Tensorflow.js, del canal de YouTube [Ringa Tech](https://youtube.com/RingaTech)
+Basado en el Código tomado de RingaTech.
 
-Se trata de un clasificador en tiempo real de perros y gatos con imágenes a color. Puede utilizarse en el celular, solo apunta la cámara al perro o gato que quieres clasificar (puede ser una imagen de la computadora, una foto, o uno de verdad), lo hace todo en el explorador utilizando Tensorflow.js, en base aun modelo entrenado en Python con Tensorflow
+Exportación de modelos de Tensorflow a Tensorflow.js.
+
+Se trata de un clasificador en tiempo real de especies de aves, con imágenes a color. Puede utilizarse en el celular, solo apunta la cámara a la imagen que quieres clasificar (puede ser una imagen de la computadora, una foto, o uno de verdad), lo hace todo en el explorador utilizando Tensorflow.js, en base aun modelo entrenado en Python con Tensorflow.
 
 ## Probar en vivo
-Puedes probar este proyecto en vivo [aquí](https://ringa-tech.com/exportacion/perros-gatos/)
+Puedes probar este proyecto en vivo [aquí].
 
 ## Cómo utilizarlo
 
 ### Descargar el repositorio
-Descarga el repositorio donde gustes en tu computadora
+Descarga el repositorio donde gustes en tu computadora.
 
 ### Inicia un servidor en la carpeta
 Este proyecto utiliza un modelo de Tensorflow.js, el cual para cargarse requiere que el acceso sea por medio de http/https.
@@ -33,7 +36,4 @@ Si quieres abrirlo en tu celular, no se puede solo poner la IP local de tu compu
 - Abre un explorador en tu celular y ve al enlace HTTPS indicado
 
 ### Uso
-Puedes dar clic en el botón de "Cambiar camara" para utilizar la cámara delantera o trasera del celular. Solo apunta la cámara a un perro o gato, y abajo te aparecerá la predicción. Tampoco es el clasificador del futuro entonces si no clasifica perfecto, oops.
-
-## Problemas
-Si tienes un problema, regístralo aquí o déjame un comentario en el video de Youtube. Asegúrate de primero revisar la consola de desarrollador de tu explorador para ver si puedes identificar el problema.
+Puedes dar clic en el botón de "Cambiar camara" para utilizar la cámara delantera o trasera del celular. Solo apunta la cámara la imagen del ave, y abajo te aparecerá la predicción. Tampoco es el clasificador del futuro entonces si no clasifica perfecto, oops.
