@@ -1,0 +1,27 @@
+#resultado {
+font-weight:  bold;
+font-size:  25px;
+text-align: center;
+}
+#unison{
+    padding-bottom: 15px;
+
+}
+
+.canvas-container {
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+.foot {
+    background-color: #ffffff; /* Color de fondo oscuro */
+    color: #000000; /* Color del texto secundario */
+    border: 1px solid #7171716d;
+    margin-top: 3rem; /* Margen superior de tamaño 5 */
+    padding-left: 1.5rem; /* Relleno horizontal de tamaño 4 */
+    padding-right: 1.5rem;
+    padding-top: 0.5rem; /* Relleno vertical de tamaño 2 */
+    padding-bottom: 0.5rem;
+    text-align: center; /* Texto centrado horizontalmente */
+    font-weight: 500;
+    font-size: 15px;
+}
